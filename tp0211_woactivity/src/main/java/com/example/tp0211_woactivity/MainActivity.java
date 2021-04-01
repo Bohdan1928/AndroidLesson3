@@ -7,21 +7,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btnActTow;
+    Button btnActTwo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnActTow = (Button) findViewById(R.id.btnActTow);
-        btnActTow.setOnClickListener(this);
+        btnActTwo = (Button) findViewById(R.id.btnActTwo);
+        btnActTwo.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btnActTow:
+            case R.id.btnActTwo:
                 Intent intent = new Intent(this, ActivityTwo.class);
                 startActivity(intent);
                 break;
@@ -29,6 +29,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
-
 
 }
