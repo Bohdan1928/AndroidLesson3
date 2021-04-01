@@ -1,3 +1,4 @@
+include ':tp0211_woactivity'
 include ':p0201_simpleanimatio'
 include ':app'
 rootProject.name = "AndroidLesson3"
