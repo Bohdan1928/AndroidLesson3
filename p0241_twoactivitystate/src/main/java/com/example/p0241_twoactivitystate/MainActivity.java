@@ -28,7 +28,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onRestart() {
         super.onRestart();
 
-        Log.d(TAG, "MainActivity: onRestart()");
+        Log.d(TAG, "MainActivity: onRes" +
+                "" +
+                "tart()");
     }
 
     @Override
